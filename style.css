@@ -1,0 +1,24 @@
+/*selector that will affect all of the content*/
+*{
+    background-color: black;
+    /*font-size: 30px;*/
+}
+
+h3{
+    color: bisque;
+}
+
+/*selector using id*/
+#myid{
+    color: blueviolet;
+}
+
+/*selector using class*/
+.myclass{
+    color: white;
+}
+
+/*group selector*/
+h4, p{
+    color: lime;
+}
