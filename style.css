@@ -1,24 +1,41 @@
-/*selector that will affect all of the content*/
-*{
-    background-color: black;
-    /*font-size: 30px;*/
-}
-
-h3{
-    color: bisque;
-}
-
-/*selector using id*/
-#myid{
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
     color: blueviolet;
 }
 
-/*selector using class*/
-.myclass{
-    color: white;
+h1{
+    color: red;
 }
 
-/*group selector*/
-h4, p{
-    color: lime;
+/*child selector*/
+ul > li{
+    font-weight: bold;
+    color: brown;
+}
+
+/*hover pseudo class*/
+ul li:hover{
+    color: blue;
+}
+
+/*nth-child pseudo class*/
+ul li:nth-child(3){
+    background-color: yellow;
+}
+
+/*attribute selector*/
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*sibling selector*/
+h1, p{
+    background-color: lime;
 }
